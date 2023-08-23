@@ -6,6 +6,7 @@ import SuperQuality from "./services/SuperQuality";
 import CustomerReviews from "./services/CustomerReviews";
 import Subscribe from "./services/Subscribe";
 import Footer from "./components/Footer";
+import Services from "./services/Services";
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
       <section className="padding">
         <SuperQuality />
       </section>
-      <section className="padding-x py-10">Services</section>
+      <section className="padding-x py-10">
+        <Services />
+      </section>
       <section className="padding">
         <SpecialsOffers />
       </section>
